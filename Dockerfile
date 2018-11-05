@@ -18,4 +18,6 @@ RUN apt-get -qqy install build-essential asciidoc binutils bzip2 gawk gettext gi
 RUN apt-get -qqy install curl wget time
 RUN apt-get -qqy install sudo bsdmainutils autoconf automake libtool tree
 RUN apt-get -qqy install gettext libattr1-dev
+# SoftEtherVPN5
+RUN apt-get -qqy install cmake gcc g++ libncurses5-dev libreadline-dev libssl-dev make zlib1g-dev
 RUN useradd -d /home/lede -m -s /bin/bash lede
