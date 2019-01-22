@@ -1,5 +1,7 @@
 FROM ubuntu:trusty
-MAINTAINER TossPig "tse.code@TossP.com"
+LABEL maintainer="TossPig <docker@TossP.com>" \
+      version="1.0.4" \
+      description="lede编译环境"
 
 ENV DEBIAN_FRONTEND noninteractive
 
