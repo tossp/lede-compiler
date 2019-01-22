@@ -14,7 +14,7 @@ ENV DEBIAN_FRONTEND noninteractive
 #     echo deb-src http://mirrors.163.com/ubuntu/ trusty-proposed main restricted universe multiverse >> /etc/apt/sources.list && \
 #     echo deb-src http://mirrors.163.com/ubuntu/ trusty-backports main restricted universe multiverse >> /etc/apt/sources.list
 RUN apt-get -qqy update
-RUN apt-get -qqy install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch unzip zlib1g-dev lib32gcc1 libc6-dev-i386 subversion flex uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils
+RUN apt-get -qqy install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch unzip zlib1g-dev lib32gcc1 libc6-dev-i386 subversion flex uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils upx
 RUN apt-get -qqy install curl wget time
 RUN apt-get -qqy install sudo bsdmainutils autoconf automake libtool tree
 RUN apt-get -qqy install gettext libattr1-dev
