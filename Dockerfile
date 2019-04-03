@@ -1,6 +1,6 @@
 FROM ubuntu:trusty
 LABEL maintainer="TossPig <docker@TossP.com>" \
-      version="1.0.4" \
+      version="1.0.5" \
       description="lede编译环境"
 
 ENV DEBIAN_FRONTEND noninteractive
