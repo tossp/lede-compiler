@@ -17,7 +17,7 @@ RUN rm -rf /var/lib/apt/lists/*
 FROM ubuntu:bionic
 
 LABEL maintainer="TossPig <docker@TossP.com>" \
-    version="1.0.6" \
+    version="2.0.0" \
     description="lede编译环境"
 
 ENV DEBIAN_FRONTEND noninteractive
